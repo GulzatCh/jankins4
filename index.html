@@ -1,0 +1,4 @@
+#!/bin/bash
+apt update 
+apt -y install apache2
+echo "Hello world from $(hostname) $(hostname -I)" > /usr/local/apache2/htdocs/tomcat/index.html
